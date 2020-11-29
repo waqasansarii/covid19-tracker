@@ -1,0 +1,31 @@
+.gridd{
+    border:2px solid blue !important;
+}
+.barChart_div{
+    /* border: 2px solid; */
+    height: 250px;
+    width: 600px;
+    margin: 0 auto;
+}
+.table_div{
+  border: solid 2px gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-height: 500px;
+  overflow: auto;
+}
+.table_head{
+    font-weight: bold !important;
+}
+.table_div::-webkit-scrollbar{
+    width: 0%;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .barChart_div{
+        width: 300px;
+    }
+}
+
