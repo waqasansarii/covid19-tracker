@@ -2,7 +2,7 @@ import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import './info.css'
 
-export default function BarChart({ data: { TotalConfirmed, TotalDeaths, TotalRecovered, Country } }) {
+export default function BarChart({ data: { TotalConfirmed, TotalDeaths, TotalRecovered } }) {
   // console.log(Country)
   const bar = {
     labels: ['Infected', 'Deaths', 'Recovered'],
