@@ -12,7 +12,6 @@ export default function BarChart({ data: { TotalConfirmed, TotalDeaths, TotalRec
         backgroundColor: ['blue', 'red', 'green'],
         borderColor: 'rgba(255,99,132,1)',
         borderWidth: 1,
-        // hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
         data: [TotalConfirmed, TotalDeaths, TotalRecovered]
       },
